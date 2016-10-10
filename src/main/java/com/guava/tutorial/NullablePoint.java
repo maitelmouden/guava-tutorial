@@ -10,6 +10,7 @@ public class NullablePoint implements Point {
     private final Integer x;
     private final Integer y;
 
+
     public static NullablePoint from(@Nullable final Integer x, @Nullable final Integer y) {
         return new NullablePoint(x, y);
     }
